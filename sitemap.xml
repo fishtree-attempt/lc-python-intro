@@ -61,6 +61,9 @@
     <loc>https://preview.carpentries.org/lc-python-intro/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://preview.carpentries.org/lc-python-intro/aio.html</loc>
+  </url>
+  <url>
     <loc>https://preview.carpentries.org/lc-python-intro/design.html</loc>
   </url>
   <url>
@@ -68,6 +71,9 @@
   </url>
   <url>
     <loc>https://preview.carpentries.org/lc-python-intro/exercises.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/lc-python-intro/images.html</loc>
   </url>
   <url>
     <loc>https://preview.carpentries.org/lc-python-intro/index.html</loc>
@@ -133,6 +139,9 @@
     <loc>https://preview.carpentries.org/lc-python-intro/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://preview.carpentries.org/lc-python-intro/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://preview.carpentries.org/lc-python-intro/instructor/design.html</loc>
   </url>
   <url>
@@ -142,13 +151,28 @@
     <loc>https://preview.carpentries.org/lc-python-intro/instructor/exercises.html</loc>
   </url>
   <url>
+    <loc>https://preview.carpentries.org/lc-python-intro/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://preview.carpentries.org/lc-python-intro/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/lc-python-intro/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/lc-python-intro/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://preview.carpentries.org/lc-python-intro/instructor/profiles.html</loc>
   </url>
   <url>
     <loc>https://preview.carpentries.org/lc-python-intro/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/lc-python-intro/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/lc-python-intro/key-points.html</loc>
   </url>
   <url>
     <loc>https://preview.carpentries.org/lc-python-intro/profiles.html</loc>
