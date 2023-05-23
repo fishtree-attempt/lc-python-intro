@@ -90,11 +90,11 @@
   Python Intro for Libraries
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 27%" class="percentage">
-    27%
+<aside class="col-md-12 lesson-progress"><div style="width: 26%" class="percentage">
+    26%
   </div>
   <div class="progress library">
-    <div class="progress-bar library" role="progressbar" style="width: 27%" aria-valuenow="27" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar library" role="progressbar" style="width: 26%" aria-valuenow="26" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -426,12 +426,12 @@ library</a> is an extensive suite of modules that comes with Python
 itself.</li>
 <li>Many additional libraries are available from <a href="https://pypi.org/" class="external-link">PyPI</a> (the Python Package Index).</li>
 <li>We will see later how to write new libraries.</li>
-</ul><div id="callout1" class="callout callout">
+</ul><div id="libraries-and-modules" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="libraries-and-modules" class="callout-inner">
-<h3 class="callout-title">Libraries and modules<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Libraries and modules<a class="anchor" aria-label="anchor" href="#libraries-and-modules"></a>
 </h3>
 <div class="callout-content">
 <p>A library is a collection of modules, but the terms are often used
@@ -558,12 +558,12 @@ names.
 </ul></li>
 <li>But can make programs harder to understand, since readers must learn
 your program’s aliases.</li>
-</ul><div id="challenge1" class="callout challenge">
+</ul><div id="exploring-the-os-library" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exploring-the-os-library" class="callout-inner">
-<h3 class="callout-title">Exploring the os Library<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Exploring the os Library<a class="anchor" aria-label="anchor" href="#exploring-the-os-library"></a>
 </h3>
 <div class="callout-content">
 <p>The os library provides a way of accessing operating system
@@ -580,7 +580,7 @@ determine the current working directory?</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>Using <code>help(os)</code> we see that we’ve got
 <code>os.getcwd()</code> which returns a string representing the current
@@ -589,12 +589,12 @@ working directory.</li>
 </div>
 </div>
 </div>
-<div id="challenge2" class="callout challenge">
+<div id="locating-the-right-module" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="locating-the-right-module" class="callout-inner">
-<h3 class="callout-title">Locating the Right Module<a class="anchor" aria-label="anchor" href="#challenge2"></a>
+<h3 class="callout-title">Locating the Right Module<a class="anchor" aria-label="anchor" href="#locating-the-right-module"></a>
 </h3>
 <div class="callout-content">
 <p>Given the variables <code>year</code>, <code>month</code> and
@@ -621,7 +621,7 @@ library</a> module could help you?</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>The <a href="https://docs.python.org/3/library/datetime.html" class="external-link">datetime
 module</a> seems like it could help you.</p>
@@ -647,12 +647,12 @@ convert your date:</p>
 </div>
 </div>
 </div>
-<div id="challenge3" class="callout challenge">
+<div id="when-is-help-available" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="when-is-help-available" class="callout-inner">
-<h3 class="callout-title">When Is Help Available?<a class="anchor" aria-label="anchor" href="#challenge3"></a>
+<h3 class="callout-title">When Is Help Available?<a class="anchor" aria-label="anchor" href="#when-is-help-available"></a>
 </h3>
 <div class="callout-content">
 <p>When a colleague of yours types <code>help(os)</code>, Python reports
@@ -673,19 +673,19 @@ an error:</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>Importing the os module (<code>import os</code>)</p>
 </div>
 </div>
 </div>
 </div>
-<div id="challenge4" class="callout challenge">
+<div id="importing-with-aliases" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="importing-with-aliases" class="callout-inner">
-<h3 class="callout-title">Importing With Aliases<a class="anchor" aria-label="anchor" href="#challenge4"></a>
+<h3 class="callout-title">Importing With Aliases<a class="anchor" aria-label="anchor" href="#importing-with-aliases"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal"><li>Fill in the blanks so that the program below prints
@@ -710,7 +710,7 @@ an error:</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb14">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -737,12 +737,12 @@ conventions.</p>
 </div>
 </div>
 </div>
-<div id="challenge5" class="callout challenge">
+<div id="there-are-many-ways-to-import-libraries" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="there-are-many-ways-to-import-libraries" class="callout-inner">
-<h3 class="callout-title">There Are Many Ways To Import Libraries!<a class="anchor" aria-label="anchor" href="#challenge5"></a>
+<h3 class="callout-title">There Are Many Ways To Import Libraries!<a class="anchor" aria-label="anchor" href="#there-are-many-ways-to-import-libraries"></a>
 </h3>
 <div class="callout-content">
 <p>Match the following print statements with the appropriate library
@@ -773,7 +773,7 @@ calls</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
 <div class="accordion-body">
 <p>A2) Importing <code>digits</code> from <code>string</code> provides
 the <code>digits</code> methods B3) Importing <code>string</code>
@@ -784,12 +784,12 @@ alias <code>s</code> allows <code>s.digits</code></p>
 </div>
 </div>
 </div>
-<div id="challenge6" class="callout challenge">
+<div id="importing-specific-items" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="importing-specific-items" class="callout-inner">
-<h3 class="callout-title">Importing Specific Items<a class="anchor" aria-label="anchor" href="#challenge6"></a>
+<h3 class="callout-title">Importing Specific Items<a class="anchor" aria-label="anchor" href="#importing-specific-items"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal"><li>Fill in the blanks so that the program below prints
@@ -814,7 +814,7 @@ alias <code>s</code> allows <code>s.digits</code></p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution6" class="accordion-collapse collapse" aria-labelledby="headingSolution6" data-bs-parent="#accordionSolution6">
+<div id="collapseSolution6" class="accordion-collapse collapse" data-bs-parent="#accordionSolution6" aria-labelledby="headingSolution6">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb19">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -833,12 +833,12 @@ or function of your own. Or if you were to also import a function named
 </div>
 </div>
 </div>
-<div id="challenge7" class="callout challenge">
+<div id="reading-error-messages" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="reading-error-messages" class="callout-inner">
-<h3 class="callout-title">Reading Error Messages<a class="anchor" aria-label="anchor" href="#challenge7"></a>
+<h3 class="callout-title">Reading Error Messages<a class="anchor" aria-label="anchor" href="#reading-error-messages"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal"><li>Read the code below and try to identify what the errors are without
@@ -861,7 +861,7 @@ it?</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution7" class="accordion-collapse collapse" aria-labelledby="headingSolution7" data-bs-parent="#accordionSolution7">
+<div id="collapseSolution7" class="accordion-collapse collapse" data-bs-parent="#accordionSolution7" aria-labelledby="headingSolution7">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>The date object takes arguments in the order year, month, day, so 13
 is an invalid value for month.</li>
@@ -921,7 +921,7 @@ programs.</li>
         <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.11.16" class="external-link">sandpaper (0.11.16)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.12.0" class="external-link">sandpaper (0.12.0)</a>,
         <a href="https://github.com/carpentries/pegboard" class="external-link">pegboard (0.5.3)</a>,
       and <a href="https://github.com/carpentries/varnish/tree/0.2.16" class="external-link">varnish (0.2.16)</a>.</p>
 			</div>
@@ -945,7 +945,7 @@ programs.</li>
   "identifier": "https://preview.carpentries.org/lc-python-intro/instructor/06-libraries.html",
   "dateCreated": "2023-05-08",
   "dateModified": "2023-05-08",
-  "datePublished": "2023-05-16"
+  "datePublished": "2023-05-23"
 }
 
   </script><script>
