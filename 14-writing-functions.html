@@ -447,8 +447,8 @@ and a block of code.<a class="anchor" aria-label="anchor" href="#define-a-functi
 </ul><div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> print_greeting():</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">'Hello!'</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="kw">def</span> print_greeting():</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">'Hello!'</span>)</span></code></pre>
 </div>
 </section><section id="defining-a-function-does-not-run-it."><h2 class="section-heading">Defining a function does not run it.<a class="anchor" aria-label="anchor" href="#defining-a-function-does-not-run-it."></a>
 </h2>
@@ -470,7 +470,7 @@ it executes later.</li>
 </ul><div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>print_greeting()</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>print_greeting()</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -489,11 +489,11 @@ the function).</li>
 </ul><div class="codewrapper sourceCode" id="cb4">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> print_date(year, month, day):</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    joined <span class="op">=</span> <span class="bu">str</span>(year) <span class="op">+</span> <span class="st">'/'</span> <span class="op">+</span> <span class="bu">str</span>(month) <span class="op">+</span> <span class="st">'/'</span> <span class="op">+</span> <span class="bu">str</span>(day)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(joined)</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>print_date(<span class="dv">1871</span>, <span class="dv">3</span>, <span class="dv">19</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="kw">def</span> print_date(year, month, day):</span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a>    joined <span class="op">=</span> <span class="bu">str</span>(year) <span class="op">+</span> <span class="st">'/'</span> <span class="op">+</span> <span class="bu">str</span>(month) <span class="op">+</span> <span class="st">'/'</span> <span class="op">+</span> <span class="bu">str</span>(day)</span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a>    <span class="bu">print</span>(joined)</span>
+<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" tabindex="-1"></a>print_date(<span class="dv">1871</span>, <span class="dv">3</span>, <span class="dv">19</span>)</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -516,16 +516,16 @@ occurs:
 </ul><div class="codewrapper sourceCode" id="cb6">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> average(values):</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="bu">len</span>(values) <span class="op">==</span> <span class="dv">0</span>:</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">None</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">sum</span>(values) <span class="op">/</span> <span class="bu">len</span>(values)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="kw">def</span> average(values):</span>
+<span id="cb6-2"><a href="#cb6-2" tabindex="-1"></a>    <span class="cf">if</span> <span class="bu">len</span>(values) <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb6-3"><a href="#cb6-3" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">None</span></span>
+<span id="cb6-4"><a href="#cb6-4" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">sum</span>(values) <span class="op">/</span> <span class="bu">len</span>(values)</span></code></pre>
 </div>
 <div class="codewrapper sourceCode" id="cb7">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> average([<span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">4</span>])</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'average of actual values:'</span>, a)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a>a <span class="op">=</span> average([<span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">4</span>])</span>
+<span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'average of actual values:'</span>, a)</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -535,7 +535,7 @@ occurs:
 <div class="codewrapper sourceCode" id="cb9">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'average of empty list:'</span>, average([]))</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'average of empty list:'</span>, average([]))</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -549,8 +549,8 @@ automatically returns <code>None</code>.</li>
 </ul><div class="codewrapper sourceCode" id="cb11">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> print_date(<span class="dv">1871</span>, <span class="dv">3</span>, <span class="dv">19</span>)</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'result of call is:'</span>, result)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a>result <span class="op">=</span> print_date(<span class="dv">1871</span>, <span class="dv">3</span>, <span class="dv">19</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'result of call is:'</span>, result)</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -570,10 +570,10 @@ result of call is: None</code></pre>
 <div class="codewrapper sourceCode" id="cb13">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> report(pressure):</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">'pressure is'</span>, pressure)</span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>report(<span class="fl">22.5</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="kw">def</span> report(pressure):</span>
+<span id="cb13-2"><a href="#cb13-2" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">'pressure is'</span>, pressure)</span>
+<span id="cb13-3"><a href="#cb13-3" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="#cb13-4" tabindex="-1"></a>report(<span class="fl">22.5</span>)</span></code></pre>
 </div>
 </div>
 </div>
@@ -606,8 +606,8 @@ result of call is: None</code></pre>
 <div class="codewrapper sourceCode" id="cb15">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> print_date(<span class="dv">1871</span>, <span class="dv">3</span>, <span class="dv">19</span>)</span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'result of call is:'</span>, result)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a>result <span class="op">=</span> print_date(<span class="dv">1871</span>, <span class="dv">3</span>, <span class="dv">19</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'result of call is:'</span>, result)</span></code></pre>
 </div>
 <p>printed:</p>
 <div class="codewrapper">
@@ -651,11 +651,11 @@ returns the minimum value in that data.</p>
 <div class="codewrapper sourceCode" id="cb17">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> min_in_data(____):</span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    data <span class="op">=</span> ____</span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> ____</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a><span class="im">import</span> pandas</span>
+<span id="cb17-2"><a href="#cb17-2" tabindex="-1"></a></span>
+<span id="cb17-3"><a href="#cb17-3" tabindex="-1"></a><span class="kw">def</span> min_in_data(____):</span>
+<span id="cb17-4"><a href="#cb17-4" tabindex="-1"></a>    data <span class="op">=</span> ____</span>
+<span id="cb17-5"><a href="#cb17-5" tabindex="-1"></a>    <span class="cf">return</span> ____</span></code></pre>
 </div>
 </div>
 </div>
@@ -670,11 +670,11 @@ returns the minimum value in that data.</p>
 <div class="codewrapper sourceCode" id="cb18">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas</span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> min_in_data(filename):</span>
-<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    data <span class="op">=</span> pandas.read_csv(filename)</span>
-<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> data.<span class="bu">min</span>()</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a><span class="im">import</span> pandas</span>
+<span id="cb18-2"><a href="#cb18-2" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" tabindex="-1"></a><span class="kw">def</span> min_in_data(filename):</span>
+<span id="cb18-4"><a href="#cb18-4" tabindex="-1"></a>    data <span class="op">=</span> pandas.read_csv(filename)</span>
+<span id="cb18-5"><a href="#cb18-5" tabindex="-1"></a>    <span class="cf">return</span> data.<span class="bu">min</span>()</span></code></pre>
 </div>
 </div>
 </div>
@@ -694,10 +694,10 @@ does your function do if the list is empty?</p>
 <div class="codewrapper sourceCode" id="cb19">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> first_negative(values):</span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> v <span class="kw">in</span> ____:</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> ____:</span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> ____</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="kw">def</span> first_negative(values):</span>
+<span id="cb19-2"><a href="#cb19-2" tabindex="-1"></a>    <span class="cf">for</span> v <span class="kw">in</span> ____:</span>
+<span id="cb19-3"><a href="#cb19-3" tabindex="-1"></a>        <span class="cf">if</span> ____:</span>
+<span id="cb19-4"><a href="#cb19-4" tabindex="-1"></a>            <span class="cf">return</span> ____</span></code></pre>
 </div>
 </div>
 </div>
@@ -712,10 +712,10 @@ does your function do if the list is empty?</p>
 <div class="codewrapper sourceCode" id="cb20">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> first_negative(values):</span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> v <span class="kw">in</span> values:</span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> v <span class="op">&lt;</span> <span class="dv">0</span>:</span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> v</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a><span class="kw">def</span> first_negative(values):</span>
+<span id="cb20-2"><a href="#cb20-2" tabindex="-1"></a>    <span class="cf">for</span> v <span class="kw">in</span> values:</span>
+<span id="cb20-3"><a href="#cb20-3" tabindex="-1"></a>        <span class="cf">if</span> v <span class="op">&lt;</span> <span class="dv">0</span>:</span>
+<span id="cb20-4"><a href="#cb20-4" tabindex="-1"></a>            <span class="cf">return</span> v</span></code></pre>
 </div>
 </div>
 </div>
@@ -733,11 +733,11 @@ does your function do if the list is empty?</p>
 <div class="codewrapper sourceCode" id="cb21">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> print_date(year, month, day):</span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>    joined <span class="op">=</span> <span class="bu">str</span>(year) <span class="op">+</span> <span class="st">'/'</span> <span class="op">+</span> <span class="bu">str</span>(month) <span class="op">+</span> <span class="st">'/'</span> <span class="op">+</span> <span class="bu">str</span>(day)</span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(joined)</span>
-<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>print_date(day<span class="op">=</span><span class="dv">1</span>, month<span class="op">=</span><span class="dv">2</span>, year<span class="op">=</span><span class="dv">2003</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="kw">def</span> print_date(year, month, day):</span>
+<span id="cb21-2"><a href="#cb21-2" tabindex="-1"></a>    joined <span class="op">=</span> <span class="bu">str</span>(year) <span class="op">+</span> <span class="st">'/'</span> <span class="op">+</span> <span class="bu">str</span>(month) <span class="op">+</span> <span class="st">'/'</span> <span class="op">+</span> <span class="bu">str</span>(day)</span>
+<span id="cb21-3"><a href="#cb21-3" tabindex="-1"></a>    <span class="bu">print</span>(joined)</span>
+<span id="cb21-4"><a href="#cb21-4" tabindex="-1"></a></span>
+<span id="cb21-5"><a href="#cb21-5" tabindex="-1"></a>print_date(day<span class="op">=</span><span class="dv">1</span>, month<span class="op">=</span><span class="dv">2</span>, year<span class="op">=</span><span class="dv">2003</span>)</span></code></pre>
 </div>
 <ol style="list-style-type: decimal"><li>When have you seen a function call like this before?</li>
 <li>When and why is it useful to call functions this way? {:
@@ -782,39 +782,39 @@ function.</p>
 <div class="codewrapper sourceCode" id="cb23">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a> <span class="im">import</span> random</span>
-<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>):</span>
-<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># simulating the mass of a chicken egg</span></span>
-<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># the (random) mass will be 70 +/- 20 grams</span></span>
-<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>    mass<span class="op">=</span><span class="dv">70</span><span class="op">+</span><span class="fl">20.0</span><span class="op">*</span>(<span class="fl">2.0</span><span class="op">*</span>random.random()<span class="op">-</span><span class="fl">1.0</span>)</span>
-<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(mass)</span>
-<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>   </span>
-<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>    <span class="co">#egg sizing machinery prints a label</span></span>
-<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(mass<span class="op">&gt;=</span><span class="dv">85</span>):</span>
-<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>       <span class="bu">print</span>(<span class="st">"jumbo"</span>)</span>
-<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span>(mass<span class="op">&gt;=</span><span class="dv">70</span>):</span>
-<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>       <span class="bu">print</span>(<span class="st">"large"</span>)</span>
-<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span>(mass<span class="op">&lt;</span><span class="dv">70</span> <span class="kw">and</span> mass<span class="op">&gt;=</span><span class="dv">55</span>):</span>
-<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a>       <span class="bu">print</span>(<span class="st">"medium"</span>)</span>
-<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
-<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a>       <span class="bu">print</span>(<span class="st">"small"</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" tabindex="-1"></a> <span class="im">import</span> random</span>
+<span id="cb23-2"><a href="#cb23-2" tabindex="-1"></a> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>):</span>
+<span id="cb23-3"><a href="#cb23-3" tabindex="-1"></a></span>
+<span id="cb23-4"><a href="#cb23-4" tabindex="-1"></a>    <span class="co"># simulating the mass of a chicken egg</span></span>
+<span id="cb23-5"><a href="#cb23-5" tabindex="-1"></a>    <span class="co"># the (random) mass will be 70 +/- 20 grams</span></span>
+<span id="cb23-6"><a href="#cb23-6" tabindex="-1"></a>    mass<span class="op">=</span><span class="dv">70</span><span class="op">+</span><span class="fl">20.0</span><span class="op">*</span>(<span class="fl">2.0</span><span class="op">*</span>random.random()<span class="op">-</span><span class="fl">1.0</span>)</span>
+<span id="cb23-7"><a href="#cb23-7" tabindex="-1"></a></span>
+<span id="cb23-8"><a href="#cb23-8" tabindex="-1"></a>    <span class="bu">print</span>(mass)</span>
+<span id="cb23-9"><a href="#cb23-9" tabindex="-1"></a>   </span>
+<span id="cb23-10"><a href="#cb23-10" tabindex="-1"></a>    <span class="co">#egg sizing machinery prints a label</span></span>
+<span id="cb23-11"><a href="#cb23-11" tabindex="-1"></a>    <span class="cf">if</span>(mass<span class="op">&gt;=</span><span class="dv">85</span>):</span>
+<span id="cb23-12"><a href="#cb23-12" tabindex="-1"></a>       <span class="bu">print</span>(<span class="st">"jumbo"</span>)</span>
+<span id="cb23-13"><a href="#cb23-13" tabindex="-1"></a>    <span class="cf">elif</span>(mass<span class="op">&gt;=</span><span class="dv">70</span>):</span>
+<span id="cb23-14"><a href="#cb23-14" tabindex="-1"></a>       <span class="bu">print</span>(<span class="st">"large"</span>)</span>
+<span id="cb23-15"><a href="#cb23-15" tabindex="-1"></a>    <span class="cf">elif</span>(mass<span class="op">&lt;</span><span class="dv">70</span> <span class="kw">and</span> mass<span class="op">&gt;=</span><span class="dv">55</span>):</span>
+<span id="cb23-16"><a href="#cb23-16" tabindex="-1"></a>       <span class="bu">print</span>(<span class="st">"medium"</span>)</span>
+<span id="cb23-17"><a href="#cb23-17" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb23-18"><a href="#cb23-18" tabindex="-1"></a>       <span class="bu">print</span>(<span class="st">"small"</span>)</span></code></pre>
 </div>
 <p>The simplified program follows. What function definition will make it
 functional?</p>
 <div class="codewrapper sourceCode" id="cb24">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a> <span class="co"># revised version</span></span>
-<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a> <span class="im">import</span> random</span>
-<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>):</span>
-<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># simulating the mass of a chicken egg</span></span>
-<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># the (random) mass will be 70 +/- 20 grams</span></span>
-<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>    mass<span class="op">=</span><span class="dv">70</span><span class="op">+</span><span class="fl">20.0</span><span class="op">*</span>(<span class="fl">2.0</span><span class="op">*</span>random.random()<span class="op">-</span><span class="fl">1.0</span>)</span>
-<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(mass,print_egg_label(mass))    </span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" tabindex="-1"></a> <span class="co"># revised version</span></span>
+<span id="cb24-2"><a href="#cb24-2" tabindex="-1"></a> <span class="im">import</span> random</span>
+<span id="cb24-3"><a href="#cb24-3" tabindex="-1"></a> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>):</span>
+<span id="cb24-4"><a href="#cb24-4" tabindex="-1"></a></span>
+<span id="cb24-5"><a href="#cb24-5" tabindex="-1"></a>    <span class="co"># simulating the mass of a chicken egg</span></span>
+<span id="cb24-6"><a href="#cb24-6" tabindex="-1"></a>    <span class="co"># the (random) mass will be 70 +/- 20 grams</span></span>
+<span id="cb24-7"><a href="#cb24-7" tabindex="-1"></a>    mass<span class="op">=</span><span class="dv">70</span><span class="op">+</span><span class="fl">20.0</span><span class="op">*</span>(<span class="fl">2.0</span><span class="op">*</span>random.random()<span class="op">-</span><span class="fl">1.0</span>)</span>
+<span id="cb24-8"><a href="#cb24-8" tabindex="-1"></a></span>
+<span id="cb24-9"><a href="#cb24-9" tabindex="-1"></a>    <span class="bu">print</span>(mass,print_egg_label(mass))    </span></code></pre>
 </div>
 <ol style="list-style-type: decimal"><li>Create a function definition for <code>print_egg_label()</code> that
 will work with the revised program above. Note, the function’s return
@@ -838,17 +838,17 @@ error conditions. Sample output could be
 <div class="codewrapper sourceCode" id="cb25">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> print_egg_label(mass):</span>
-<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(mass<span class="op">&gt;=</span><span class="dv">90</span>):</span>
-<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>     <span class="bu">print</span>(mass, <span class="st">"dirty"</span>)</span>
-<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">elif</span>(mass<span class="op">&gt;=</span><span class="dv">85</span>):</span>
-<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>     <span class="bu">print</span>(mass, <span class="st">"jumbo"</span>)</span>
-<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">elif</span>(mass<span class="op">&gt;=</span><span class="dv">70</span>):</span>
-<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>     <span class="bu">print</span>(mass, <span class="st">"large"</span>)</span>
-<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>  <span class="cf">elif</span>(mass<span class="op">&lt;</span><span class="dv">70</span> <span class="kw">and</span> mass<span class="op">&gt;=</span><span class="dv">55</span>):</span>
-<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>     <span class="bu">print</span>(mass, <span class="st">"medium"</span>)</span>
-<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>  <span class="cf">else</span>:</span>
-<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>     <span class="bu">print</span>(mass, <span class="st">"too light, probably spoiled"</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" tabindex="-1"></a><span class="kw">def</span> print_egg_label(mass):</span>
+<span id="cb25-2"><a href="#cb25-2" tabindex="-1"></a>  <span class="cf">if</span>(mass<span class="op">&gt;=</span><span class="dv">90</span>):</span>
+<span id="cb25-3"><a href="#cb25-3" tabindex="-1"></a>     <span class="bu">print</span>(mass, <span class="st">"dirty"</span>)</span>
+<span id="cb25-4"><a href="#cb25-4" tabindex="-1"></a>  <span class="cf">elif</span>(mass<span class="op">&gt;=</span><span class="dv">85</span>):</span>
+<span id="cb25-5"><a href="#cb25-5" tabindex="-1"></a>     <span class="bu">print</span>(mass, <span class="st">"jumbo"</span>)</span>
+<span id="cb25-6"><a href="#cb25-6" tabindex="-1"></a>  <span class="cf">elif</span>(mass<span class="op">&gt;=</span><span class="dv">70</span>):</span>
+<span id="cb25-7"><a href="#cb25-7" tabindex="-1"></a>     <span class="bu">print</span>(mass, <span class="st">"large"</span>)</span>
+<span id="cb25-8"><a href="#cb25-8" tabindex="-1"></a>  <span class="cf">elif</span>(mass<span class="op">&lt;</span><span class="dv">70</span> <span class="kw">and</span> mass<span class="op">&gt;=</span><span class="dv">55</span>):</span>
+<span id="cb25-9"><a href="#cb25-9" tabindex="-1"></a>     <span class="bu">print</span>(mass, <span class="st">"medium"</span>)</span>
+<span id="cb25-10"><a href="#cb25-10" tabindex="-1"></a>  <span class="cf">else</span>:</span>
+<span id="cb25-11"><a href="#cb25-11" tabindex="-1"></a>     <span class="bu">print</span>(mass, <span class="st">"too light, probably spoiled"</span>)</span></code></pre>
 </div>
 </div>
 </div>
@@ -866,30 +866,30 @@ error conditions. Sample output could be
 <div class="codewrapper sourceCode" id="cb26">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas</span>
-<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pandas.read_csv(<span class="st">'gapminder_gdp_asia.csv'</span>, index_col<span class="op">=</span><span class="dv">0</span>)</span>
-<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>japan <span class="op">=</span> df.ix[<span class="st">'Japan'</span>]</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" tabindex="-1"></a><span class="im">import</span> pandas</span>
+<span id="cb26-2"><a href="#cb26-2" tabindex="-1"></a></span>
+<span id="cb26-3"><a href="#cb26-3" tabindex="-1"></a>df <span class="op">=</span> pandas.read_csv(<span class="st">'gapminder_gdp_asia.csv'</span>, index_col<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb26-4"><a href="#cb26-4" tabindex="-1"></a>japan <span class="op">=</span> df.ix[<span class="st">'Japan'</span>]</span></code></pre>
 </div>
 <ol style="list-style-type: decimal"><li>Complete the statements below to obtain the average GDP for Japan
 across the years reported for the 1980s.</li>
 </ol><div class="codewrapper sourceCode" id="cb27">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>year <span class="op">=</span> <span class="dv">1983</span></span>
-<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>gdp_decade <span class="op">=</span> <span class="st">'gdpPercap_'</span> <span class="op">+</span> <span class="bu">str</span>(year <span class="op">//</span> ____)</span>
-<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>avg <span class="op">=</span> (japan.ix[gdp_decade <span class="op">+</span> ___] <span class="op">+</span> japan.ix[gdp_decade <span class="op">+</span> ___]) <span class="op">/</span> <span class="dv">2</span></span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" tabindex="-1"></a>year <span class="op">=</span> <span class="dv">1983</span></span>
+<span id="cb27-2"><a href="#cb27-2" tabindex="-1"></a>gdp_decade <span class="op">=</span> <span class="st">'gdpPercap_'</span> <span class="op">+</span> <span class="bu">str</span>(year <span class="op">//</span> ____)</span>
+<span id="cb27-3"><a href="#cb27-3" tabindex="-1"></a>avg <span class="op">=</span> (japan.ix[gdp_decade <span class="op">+</span> ___] <span class="op">+</span> japan.ix[gdp_decade <span class="op">+</span> ___]) <span class="op">/</span> <span class="dv">2</span></span></code></pre>
 </div>
 <ol start="2" style="list-style-type: decimal"><li>Abstract the code above into a single function.</li>
 </ol><div class="codewrapper sourceCode" id="cb28">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> avg_gdp_in_decade(country, continent, year):</span>
-<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> pd.read_csv(<span class="st">'gapminder_gdp_'</span><span class="op">+</span>___<span class="op">+</span><span class="st">'.csv'</span>,delimiter<span class="op">=</span><span class="st">','</span>,index_col<span class="op">=</span><span class="dv">0</span>)</span>
-<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>    ____</span>
-<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>    ____</span>
-<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>    ____</span>
-<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> avg</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" tabindex="-1"></a><span class="kw">def</span> avg_gdp_in_decade(country, continent, year):</span>
+<span id="cb28-2"><a href="#cb28-2" tabindex="-1"></a>    df <span class="op">=</span> pd.read_csv(<span class="st">'gapminder_gdp_'</span><span class="op">+</span>___<span class="op">+</span><span class="st">'.csv'</span>,delimiter<span class="op">=</span><span class="st">','</span>,index_col<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb28-3"><a href="#cb28-3" tabindex="-1"></a>    ____</span>
+<span id="cb28-4"><a href="#cb28-4" tabindex="-1"></a>    ____</span>
+<span id="cb28-5"><a href="#cb28-5" tabindex="-1"></a>    ____</span>
+<span id="cb28-6"><a href="#cb28-6" tabindex="-1"></a>    <span class="cf">return</span> avg</span></code></pre>
 </div>
 <ol start="3" style="list-style-type: decimal"><li>How would you generalize this function if you did not know
 beforehand which specific years occurred as columns in the data? For
@@ -910,37 +910,37 @@ the decade, instead of enumerating them in the code.)</li>
 </li></ol><div class="codewrapper sourceCode" id="cb29">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>year <span class="op">=</span> <span class="dv">1983</span></span>
-<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>gdp_decade <span class="op">=</span> <span class="st">'gdpPercap_'</span> <span class="op">+</span> <span class="bu">str</span>(year <span class="op">//</span> <span class="dv">10</span>)</span>
-<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>avg <span class="op">=</span> (japan.ix[gdp_decade <span class="op">+</span> <span class="st">'2'</span>] <span class="op">+</span> japan.ix[gdp_decade <span class="op">+</span> <span class="st">'7'</span>]) <span class="op">/</span> <span class="dv">2</span></span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" tabindex="-1"></a>year <span class="op">=</span> <span class="dv">1983</span></span>
+<span id="cb29-2"><a href="#cb29-2" tabindex="-1"></a>gdp_decade <span class="op">=</span> <span class="st">'gdpPercap_'</span> <span class="op">+</span> <span class="bu">str</span>(year <span class="op">//</span> <span class="dv">10</span>)</span>
+<span id="cb29-3"><a href="#cb29-3" tabindex="-1"></a>avg <span class="op">=</span> (japan.ix[gdp_decade <span class="op">+</span> <span class="st">'2'</span>] <span class="op">+</span> japan.ix[gdp_decade <span class="op">+</span> <span class="st">'7'</span>]) <span class="op">/</span> <span class="dv">2</span></span></code></pre>
 </div>
 <ol start="2" style="list-style-type: decimal"><li>
 </li></ol><div class="codewrapper sourceCode" id="cb30">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> avg_gdp_in_decade(country, continent, year):</span>
-<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> pd.read_csv(<span class="st">'gapminder_gdp_'</span> <span class="op">+</span> continent <span class="op">+</span> <span class="st">'.csv'</span>, index_col<span class="op">=</span><span class="dv">0</span>)</span>
-<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>    c <span class="op">=</span> df.ix[country]</span>
-<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>    gdp_decade <span class="op">=</span> <span class="st">'gdpPercap_'</span> <span class="op">+</span> <span class="bu">str</span>(year <span class="op">//</span> <span class="dv">10</span>)</span>
-<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>    avg <span class="op">=</span> (c.ix[gdp_decade <span class="op">+</span> <span class="st">'2'</span>] <span class="op">+</span> c.ix[gdp_decade <span class="op">+</span> <span class="st">'7'</span>])<span class="op">/</span><span class="dv">2</span></span>
-<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> avg</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" tabindex="-1"></a><span class="kw">def</span> avg_gdp_in_decade(country, continent, year):</span>
+<span id="cb30-2"><a href="#cb30-2" tabindex="-1"></a>    df <span class="op">=</span> pd.read_csv(<span class="st">'gapminder_gdp_'</span> <span class="op">+</span> continent <span class="op">+</span> <span class="st">'.csv'</span>, index_col<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb30-3"><a href="#cb30-3" tabindex="-1"></a>    c <span class="op">=</span> df.ix[country]</span>
+<span id="cb30-4"><a href="#cb30-4" tabindex="-1"></a>    gdp_decade <span class="op">=</span> <span class="st">'gdpPercap_'</span> <span class="op">+</span> <span class="bu">str</span>(year <span class="op">//</span> <span class="dv">10</span>)</span>
+<span id="cb30-5"><a href="#cb30-5" tabindex="-1"></a>    avg <span class="op">=</span> (c.ix[gdp_decade <span class="op">+</span> <span class="st">'2'</span>] <span class="op">+</span> c.ix[gdp_decade <span class="op">+</span> <span class="st">'7'</span>])<span class="op">/</span><span class="dv">2</span></span>
+<span id="cb30-6"><a href="#cb30-6" tabindex="-1"></a>    <span class="cf">return</span> avg</span></code></pre>
 </div>
 <ol start="3" style="list-style-type: decimal"><li>We need to loop over the reported years to obtain the average for
 the relevant ones in the data.</li>
 </ol><div class="codewrapper sourceCode" id="cb31">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> avg_gdp_in_decade(country, continent, year):</span>
-<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> pd.read_csv(<span class="st">'gapminder_gdp_'</span> <span class="op">+</span> continent <span class="op">+</span> <span class="st">'.csv'</span>, index_col<span class="op">=</span><span class="dv">0</span>)</span>
-<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>    c <span class="op">=</span> df.ix[country] </span>
-<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>    gdp_decade <span class="op">=</span> <span class="st">'gdpPercap_'</span> <span class="op">+</span> <span class="bu">str</span>(year <span class="op">//</span> <span class="dv">10</span>)</span>
-<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>    total <span class="op">=</span> <span class="fl">0.0</span></span>
-<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>    num_years <span class="op">=</span> <span class="dv">0</span></span>
-<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> yr_header <span class="kw">in</span> c.index: <span class="co"># c's index contains reported years</span></span>
-<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> yr_header.startswith(gdp_decade):</span>
-<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>            total <span class="op">=</span> total <span class="op">+</span> c.ix[yr_header]</span>
-<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a>            num_years <span class="op">=</span> num_years <span class="op">+</span> <span class="dv">1</span></span>
-<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> total<span class="op">/</span>num_years</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" tabindex="-1"></a><span class="kw">def</span> avg_gdp_in_decade(country, continent, year):</span>
+<span id="cb31-2"><a href="#cb31-2" tabindex="-1"></a>    df <span class="op">=</span> pd.read_csv(<span class="st">'gapminder_gdp_'</span> <span class="op">+</span> continent <span class="op">+</span> <span class="st">'.csv'</span>, index_col<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb31-3"><a href="#cb31-3" tabindex="-1"></a>    c <span class="op">=</span> df.ix[country] </span>
+<span id="cb31-4"><a href="#cb31-4" tabindex="-1"></a>    gdp_decade <span class="op">=</span> <span class="st">'gdpPercap_'</span> <span class="op">+</span> <span class="bu">str</span>(year <span class="op">//</span> <span class="dv">10</span>)</span>
+<span id="cb31-5"><a href="#cb31-5" tabindex="-1"></a>    total <span class="op">=</span> <span class="fl">0.0</span></span>
+<span id="cb31-6"><a href="#cb31-6" tabindex="-1"></a>    num_years <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb31-7"><a href="#cb31-7" tabindex="-1"></a>    <span class="cf">for</span> yr_header <span class="kw">in</span> c.index: <span class="co"># c's index contains reported years</span></span>
+<span id="cb31-8"><a href="#cb31-8" tabindex="-1"></a>        <span class="cf">if</span> yr_header.startswith(gdp_decade):</span>
+<span id="cb31-9"><a href="#cb31-9" tabindex="-1"></a>            total <span class="op">=</span> total <span class="op">+</span> c.ix[yr_header]</span>
+<span id="cb31-10"><a href="#cb31-10" tabindex="-1"></a>            num_years <span class="op">=</span> num_years <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb31-11"><a href="#cb31-11" tabindex="-1"></a>    <span class="cf">return</span> total<span class="op">/</span>num_years</span></code></pre>
 </div>
 </div>
 </div>
@@ -1024,7 +1024,7 @@ and a block of code.</li>
   "identifier": "https://preview.carpentries.org/lc-python-intro/14-writing-functions.html",
   "dateCreated": "2023-05-08",
   "dateModified": "2023-05-08",
-  "datePublished": "2024-02-27"
+  "datePublished": "2024-03-05"
 }
 
   </script><script>
