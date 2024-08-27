@@ -374,10 +374,10 @@ program is executing.</a></li>
               </div>
             </div>
 
-            <hr class="half-width"><div class="accordion accordion-flush resources" id="accordionFlush12">
+            <hr class="half-width"><div class="accordion accordion-flush lesson-resources" id="accordionFlush12">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingTwelve">
-                  <button class="accordion-button collapsed" id="resources" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                  <button class="accordion-button collapsed" id="lesson-resources" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
                     RESOURCES
                   </button>
                 </h2>
@@ -397,7 +397,7 @@ program is executing.</a></li>
                 </div>
               </div>
             </div>
-            <hr class="half-width resources"><a href="../instructor/aio.html">See all in one page</a>
+            <hr class="half-width lesson-resources"><a href="../instructor/aio.html">See all in one page</a>
 
 
             <hr class="d-none d-sm-block d-md-none"><div class="d-grid gap-1">
@@ -470,16 +470,14 @@ occur.</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="use-comments-to-add-documentation-to-programs-">Use comments to add documentation to programs.<a class="anchor" aria-label="anchor" href="#use-comments-to-add-documentation-to-programs."></a>
-<a class="anchor" aria-label="anchor" href="#use-comments-to-add-documentation-to-programs-"></a></h2>
+<section><h2 class="section-heading" id="use-comments-to-add-documentation-to-programs-">Use comments to add documentation to programs.<a class="anchor" aria-label="anchor" href="#use-comments-to-add-documentation-to-programs-"></a></h2>
 <hr class="half-width"><div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="co"># This sentence isn't executed by Python.</span></span>
 <span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>name <span class="op">=</span> <span class="st">'Library Carpentry'</span>   <span class="co"># Neither is this comment - anything after '#' is ignored.</span></span></code></pre>
 </div>
-</section><section><h2 class="section-heading" id="a-function-may-take-zero-or-more-arguments-">A function may take zero or more arguments.<a class="anchor" aria-label="anchor" href="#a-function-may-take-zero-or-more-arguments."></a>
-<a class="anchor" aria-label="anchor" href="#a-function-may-take-zero-or-more-arguments-"></a></h2>
+</section><section><h2 class="section-heading" id="a-function-may-take-zero-or-more-arguments-">A function may take zero or more arguments.<a class="anchor" aria-label="anchor" href="#a-function-may-take-zero-or-more-arguments-"></a></h2>
 <hr class="half-width"><ul><li>We have seen some functions already — now let’s take a closer
 look.</li>
 <li>An <em>argument</em> is a value passed into a function.</li>
@@ -517,8 +515,7 @@ new value from an existing one.</li>
 <span><span class="va">after</span></span></code></pre>
 </div>
 </section><section><h2 class="section-heading" id="commonly-used-built-in-functions-include-max-min-and-round-">Commonly-used built-in functions include <code>max</code>,
-<code>min</code>, and <code>round</code>.<a class="anchor" aria-label="anchor" href="#commonly-used-built-in-functions-include-max-min-and-round."></a>
-<a class="anchor" aria-label="anchor" href="#commonly-used-built-in-functions-include-max-min-and-round-"></a></h2>
+<code>min</code>, and <code>round</code>.<a class="anchor" aria-label="anchor" href="#commonly-used-built-in-functions-include-max-min-and-round-"></a></h2>
 <hr class="half-width"><ul><li>Use <code>max</code> to find the largest value of one or more
 values.</li>
 <li>Use <code>min</code> to find the smallest.</li>
@@ -552,8 +549,7 @@ values.</li>
 <span><span class="va">A</span></span></code></pre>
 </div>
 </section><section><h2 class="section-heading" id="functions-may-only-work-for-certain-combinations-of-arguments-">Functions may only work for certain (combinations of)
-arguments.<a class="anchor" aria-label="anchor" href="#functions-may-only-work-for-certain-combinations-of-arguments."></a>
-<a class="anchor" aria-label="anchor" href="#functions-may-only-work-for-certain-combinations-of-arguments-"></a></h2>
+arguments.<a class="anchor" aria-label="anchor" href="#functions-may-only-work-for-certain-combinations-of-arguments-"></a></h2>
 <hr class="half-width"><ul><li>
 <code>max</code> and <code>min</code> must be given at least one
 argument.</li>
@@ -569,8 +565,7 @@ compared.</li>
 </h3>
 <pre class="error" tabindex="0"><code>TypeError: unorderable types: str() &gt; int()</code></pre>
 </div>
-</section><section><h2 class="section-heading" id="functions-may-have-default-values-for-some-arguments-">Functions may have default values for some arguments.<a class="anchor" aria-label="anchor" href="#functions-may-have-default-values-for-some-arguments."></a>
-<a class="anchor" aria-label="anchor" href="#functions-may-have-default-values-for-some-arguments-"></a></h2>
+</section><section><h2 class="section-heading" id="functions-may-have-default-values-for-some-arguments-">Functions may have default values for some arguments.<a class="anchor" aria-label="anchor" href="#functions-may-have-default-values-for-some-arguments-"></a></h2>
 <hr class="half-width"><ul><li>
 <code>round</code> will round off a floating-point number.</li>
 <li>By default, rounds to zero decimal places.</li>
@@ -596,8 +591,7 @@ compared.</li>
 <pre class="output" tabindex="0"><code><span><span class="fl">3.7</span></span></code></pre>
 </div>
 </section><section><h2 class="section-heading" id="use-the-built-in-function-help-to-get-help-for-a-function-">Use the built-in function <code>help</code> to get help for a
-function.<a class="anchor" aria-label="anchor" href="#use-the-built-in-function-help-to-get-help-for-a-function."></a>
-<a class="anchor" aria-label="anchor" href="#use-the-built-in-function-help-to-get-help-for-a-function-"></a></h2>
+function.<a class="anchor" aria-label="anchor" href="#use-the-built-in-function-help-to-get-help-for-a-function-"></a></h2>
 <hr class="half-width"><ul><li>Every built-in function has online documentation.</li>
 </ul><div class="codewrapper sourceCode" id="cb12">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -617,8 +611,7 @@ round(...)
     same type as the number. ndigits may be negative.</code></pre>
 </div>
 </section><section><h2 class="section-heading" id="python-reports-a-syntax-error-when-grammar-rules-thats-python-grammar-not-english-grammar-have-been-violated-">Python reports a syntax error when grammar rules (that’s Python
-grammar, not English grammar) have been violated.<a class="anchor" aria-label="anchor" href="#python-reports-a-syntax-error-when-grammar-rules-thats-python-grammar-not-english-grammar-have-been-violated."></a>
-<a class="anchor" aria-label="anchor" href="#python-reports-a-syntax-error-when-grammar-rules-thats-python-grammar-not-english-grammar-have-been-violated-"></a></h2>
+grammar, not English grammar) have been violated.<a class="anchor" aria-label="anchor" href="#python-reports-a-syntax-error-when-grammar-rules-thats-python-grammar-not-english-grammar-have-been-violated-"></a></h2>
 <hr class="half-width"><ul><li>You’ve seen errors when you try to use a function incorrectly.
 <ul><li>Can also have errors when you use punctuation incorrectly.</li>
 </ul></li>
@@ -671,8 +664,7 @@ occurred in cell 6 of our Notebook.</li>
 <li>Next is the problematic line of code, indicating the problem with a
 <code>^</code> pointer.</li>
 </ul></section><section><h2 class="section-heading" id="python-reports-a-runtime-error-when-something-goes-wrong-while-a-program-is-executing-">Python reports a runtime error when something goes wrong while a
-program is executing.<a class="anchor" aria-label="anchor" href="#python-reports-a-runtime-error-when-something-goes-wrong-while-a-program-is-executing."></a>
-<a class="anchor" aria-label="anchor" href="#python-reports-a-runtime-error-when-something-goes-wrong-while-a-program-is-executing-"></a></h2>
+program is executing.<a class="anchor" aria-label="anchor" href="#python-reports-a-runtime-error-when-something-goes-wrong-while-a-program-is-executing-"></a></h2>
 <hr class="half-width"><div class="codewrapper sourceCode" id="cb20">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
@@ -686,8 +678,7 @@ program is executing.<a class="anchor" aria-label="anchor" href="#python-reports
 </div>
 <ul><li>Fix syntax errors by reading the source and runtime errors by
 tracing execution.</li>
-</ul></section><section><h2 class="section-heading" id="every-function-returns-something-">Every function returns something.<a class="anchor" aria-label="anchor" href="#every-function-returns-something."></a>
-<a class="anchor" aria-label="anchor" href="#every-function-returns-something-"></a></h2>
+</ul></section><section><h2 class="section-heading" id="every-function-returns-something-">Every function returns something.<a class="anchor" aria-label="anchor" href="#every-function-returns-something-"></a></h2>
 <hr class="half-width"><ul><li>Every function call produces some result.</li>
 <li>If the function doesn’t have a useful result to return, it usually
 returns the special value <code>None</code>.</li>
@@ -708,8 +699,7 @@ result of print is None</code></pre>
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="what-happens-when" class="callout-inner">
-<h3 class="callout-title">What Happens When<a class="anchor" aria-label="anchor" href="#what-happens-when"></a>
-</h3>
+<h3 class="callout-title">What Happens When</h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal"><li>Explain in simple terms the order of operations in the following
 program: when does the addition happen, when does the subtraction
@@ -730,7 +720,7 @@ happen, when is each function called, etc.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <pre><code><span><span class="va">ping</span></span></code></pre>
 </div>
@@ -742,8 +732,7 @@ happen, when is each function called, etc.</li>
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="spot-the-difference" class="callout-inner">
-<h3 class="callout-title">Spot the Difference<a class="anchor" aria-label="anchor" href="#spot-the-difference"></a>
-</h3>
+<h3 class="callout-title">Spot the Difference</h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal"><li>Predict what each of the <code>print</code> statements in the
 program below will print.</li>
@@ -765,7 +754,7 @@ message? If it runs, does its result make any sense?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <pre><code>tin
 4
@@ -779,8 +768,7 @@ TypeError: '&gt;' not supported between instances of 'str' and 'int'</code></pre
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="why-not" class="callout-inner">
-<h3 class="callout-title">Why Not?<a class="anchor" aria-label="anchor" href="#why-not"></a>
-</h3>
+<h3 class="callout-title">Why Not?</h3>
 <div class="callout-content">
 <p>Why don’t <code>max</code> and <code>min</code> return
 <code>None</code> when they are given no arguments?</p>
@@ -792,7 +780,7 @@ TypeError: '&gt;' not supported between instances of 'str' and 'int'</code></pre
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>Both functions require an argument to execute</p>
 <div class="codewrapper sourceCode" id="cb28">
@@ -814,8 +802,7 @@ TypeError: '&gt;' not supported between instances of 'str' and 'int'</code></pre
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="last-character-of-a-string" class="callout-inner">
-<h3 class="callout-title">Last Character of a String<a class="anchor" aria-label="anchor" href="#last-character-of-a-string"></a>
-</h3>
+<h3 class="callout-title">Last Character of a String</h3>
 <div class="callout-content">
 <p>If Python starts counting from zero, and <code>len</code> returns the
 number of characters in a string, what index expression will get the
@@ -829,7 +816,7 @@ simpler way to do this in a later episode.)</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p><code>name[len(name) - 1]</code></p>
 </div>
@@ -841,8 +828,7 @@ simpler way to do this in a later episode.)</p>
 <i class="callout-icon" data-feather="key"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
-</h3>
+<h3 class="callout-title">Key Points</h3>
 <div class="callout-content">
 <ul><li>Use comments to add documentation to programs.</li>
 <li>A function may take zero or more arguments.</li>
@@ -899,7 +885,7 @@ tracing the program’s execution.</li>
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
 
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.5" class="external-link">sandpaper (0.16.5)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.6" class="external-link">pegboard (0.7.6)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.3" class="external-link">varnish (1.0.3)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.6" class="external-link">sandpaper (0.16.6)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.6" class="external-link">pegboard (0.7.6)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.4" class="external-link">varnish (1.0.4)</a></p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -922,7 +908,7 @@ tracing the program’s execution.</li>
   "identifier": "https://preview.carpentries.org/lc-python-intro/instructor/04-built-in.html",
   "dateCreated": "2023-05-08",
   "dateModified": "2023-05-08",
-  "datePublished": "2024-08-20"
+  "datePublished": "2024-08-27"
 }
 
   </script><script>
